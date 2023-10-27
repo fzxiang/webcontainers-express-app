@@ -4,7 +4,7 @@
             "contents": "import express from 'express';\n\nconst app = express();\nconst port = 3111;\n\napp.get('/', (req, res) => {\n\tres.send('Welcome to a WebContainers app! 🥳');\n});\n\napp.listen(port, () => {\n\tconsole.log(`App is live at http://localhost:${port}`);\n});\n"
         }
     },
-    "packages.json": {
+    "package.json": {
         "file": {
             "contents": "{\n  \"name\": \"example-app\",\n  \"type\": \"module\",\n  \"dependencies\": {\n    \"express\": \"latest\",\n    \"nodemon\": \"latest\"\n  },\n  \"scripts\": {\n    \"start\": \"nodemon --watch './' index.js\"\n  }\n}\n"
         }

@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm run generate",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run generate && vite build",
     "preview": "vite preview",
     "serve": "node ./serve.js",
     "generate": "node ./scripts/generate.js /server"

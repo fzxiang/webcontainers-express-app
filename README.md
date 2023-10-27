@@ -3,7 +3,8 @@
 
 ## Contributing
 
-This is a webcontainers awesome.
+This is a webcontainers awesome,
+click [here](https://fzxiang.github.io/webcontainers-express-app/) to see the demo.
 
 
 Begin
